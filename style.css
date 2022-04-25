@@ -84,7 +84,7 @@ h1,h2{
 }
 #PromocaoBanner{
     height: 200px;
-    background-image: url(../imagens/pao-integral-caseiro.jpg);
+    background-image: url(imagens/pao-integral-caseiro.jpg);
     background-size: 100%;
     color: white;
     font-size: 1vw;
