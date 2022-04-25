@@ -1,0 +1,275 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  	#FFFBBF;
+    color: #FFD47D;
+    margin: 0;
+    padding: 10px 50px 50px 50px;
+}
+
+header h1 {
+    font-size: 5rem;
+    position: relative;
+    top: 40px;
+    user-select: none;
+    text-shadow: 1px 1px 1px #726b6b ;
+    font-family: cursive;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+   
+}
+
+h1,h2{
+    margin: 0;
+}
+#logoimg{
+    width: 170px;
+    height: 146px;
+    padding-right: 15px;
+    position: relative;
+    top: 20px;
+    pointer-events: none;
+}
+
+.menu {
+    background-color:#FFD47D;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 23px;
+    box-shadow: 10px 10px 10px #f0da89c9;
+    border-style: solid;
+    border-color: #ffd47d;
+}
+
+.menu a {
+    padding: 18px;
+    color: #726b6b;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+.menu a:hover{
+    background-color:#726b6b ;
+    color:#FFD47D;
+}
+
+.coluna{
+    top: 24px;
+    position: relative;
+    
+}
+#coluna-esq{
+    width: 75%;
+    float: left;
+}
+#coluna-dir{
+    width: 25%;
+    float: left;
+    padding-left: 21px;
+}
+.card{
+    background-color: #fffdfd;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px #f0da89c9;
+    border-radius: 5px;
+}
+#PromocaoBanner{
+    height: 200px;
+    background-image: url(../imagens/pao-integral-caseiro.jpg);
+    background-size: 100%;
+    color: white;
+    font-size: 1vw;
+    position: relative;
+    text-shadow: 2px 4px 4px palevioletred;
+    transition: box-shadow 0.5s;
+    cursor: pointer;
+    
+}
+#PromocaoBanner:hover{
+    box-shadow: 10px 10px 16px rgb(95, 93, 91);
+}
+#promocaoValor{
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+
+#img2{
+    height: 85px;
+    width: 85px;
+}
+#img3{
+    height: 85px;
+    width: 85px;
+}
+#img1{
+    height: 85px;
+    width: 85px;
+}
+.sobreimg{
+    height: 85px;
+    border-radius: 75px;
+    margin: 21px;
+    box-shadow: 0px 0px 8px rgb(95, 94, 94);
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    
+    }
+    .sobreimg:hover{
+        box-shadow: 5px 8px 10px rgb(88, 86, 86);
+    }
+    .sobreitens{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sobretexto a {
+        color: #FFD47D;
+        text-shadow: 2px 2px 3px rgb(95, 95, 95);
+    }
+    .titulosobrenos{
+        text-shadow: 2px 2px 3px rgb(95, 95, 95);
+    }
+        
+    
+    .promo{
+        display: flex;
+        white-space: nowrap;
+        overflow: hidden;
+        padding-left: 20px;
+        cursor: pointer;
+        transition: box-shadow 0.3s;
+    }
+
+    .promo img{
+        height: 80px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    .promo:hover{
+        box-shadow: 0 0 6px rgb(88, 85, 85);
+    }
+    .promomarmita{
+        text-shadow: 1px 1px 1px rgb(95, 95, 95);
+    }
+    .rdsociais img{
+        height: 60px;
+        margin: 10px;
+        transition: opacity 0.3s;
+    }
+    .rdsociais{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .socialtitle{
+        text-shadow: 1px 1px 1px rgb(95, 95, 95);
+        text-align: center;
+    }
+    .rdsociais img:hover{
+        opacity: 0.75;
+    }
+    .produto img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border: 2px solid #FFD47D;
+    }
+    .produto{
+        text-align: center;
+        cursor: pointer;
+        margin: 5px;
+        border-radius: 5px;
+        transition: box-shadow 0.2s;
+        font-size: 20px;
+
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px,1fr));
+    }
+    #somarmita{
+        text-shadow: 2px 2px 2px #423f3f;
+    }
+    .grid p{
+        text-shadow: 1px 1px 1px #423f3f;
+    }
+    .produto:hover{
+        box-shadow: 5px 10px 15px rgb(85, 85, 84);
+    }
+    .produtotitle{
+        font-weight: bold;
+    }
+
+    #entrega{
+        position: fixed;
+        bottom: 5px;
+        right: 10px;
+        height: 100px;
+        width: 300px;
+    }
+    #entrega img{
+        position: absolute;
+        right: 10px;
+        width: 80px;
+    }
+    #tel{
+        position: absolute;
+        height: 60px;
+        background-color: #00c446;
+        color: white;
+        margin-top: 10px;
+        padding: 10px;
+        left: 16px;
+        border-radius: 16px;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    #tel p{
+        margin: 0;
+    }
+    #entrega img:hover + #tel{
+        opacity: 1;
+    }
+    
+    @media screen and (max-width: 800px){
+
+        #coluna-esq{
+            width: 100%;
+            }
+        #coluna-dir{
+            width: 100%;
+            }
+            header h1 {
+                font-size: 3rem;
+                position: relative;
+                top: 40px;
+                user-select: none;
+                text-shadow: 1px 1px 1px #726b6b ;
+                font-family: cursive;
+            }
+            #logoimg{
+                width: 100px;
+                height: 76px;
+                padding-right: 15px;
+                position: relative;
+                top: 20px;
+                pointer-events: none;
+            }
+            #PromocaoBanner{
+                font-size: 4vw;
+            }
+
+
+
+    }
